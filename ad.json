@@ -10,7 +10,7 @@
  "adomain": ["vip.com"],
  "adm": "<a href=\"{!ssp_click_url}http://www.xuanruixinxi.com/xd/click.php?adid=${AUCTION_AD_ID}&url=aHR0cDovL2NsaWNrLnVuaW9uLnZpcC5jb20vcmVkaXJlY3QucGhwP3VybD1leUp6WTJobGJXVmpiMlJsSWpvaWJqWnVkSHBxYUhnaUxDSmtaWE4wZFhKc0lqb2lhSFIwY0RwY0wxd3ZkM2QzTG5acGNDNWpiMjBpTENKMVkyOWtaU0k2SWpVeWJuSjRkM1YySW4wPQ==\" target=\"_blank\"><img src=\"http://ms.vpimg1.com/upload/actpics/cps/0/2015/05/12/74/nnenxoalzz7akl6.jpg\"></a><img src=\"http://www.xuanruixinxi.com/xd/load.php?adid=${AUCTION_AD_ID}&p=${AUCTION_PRICE}\"  height=\"1px\" width=\"1px\"/>",
  "bidid": "bid1",
- "bidceiling" :  2,
+ "bidceiling" :  [1,2.5],
  "dtime" : [9,24],
  "cost" : 1000,
  "site": {
