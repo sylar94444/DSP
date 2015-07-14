@@ -19,5 +19,5 @@ foreach ($count_obj as $value){
     }
 }
 $count_str = json_encode($count_obj);
-file_put_contents($file, $count_str);
+file_put_contents($file, $count_str,LOCK_EX);
 ?>
