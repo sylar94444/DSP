@@ -10,11 +10,12 @@
  "adomain": ["vip.com"],
  "adm": "<a href=\"{!ssp_click_url}http://www.xuanruixinxi.com/xd/click.php?adid=${AUCTION_AD_ID}&url=aHR0cDovL2NsaWNrLnVuaW9uLnZpcC5jb20vcmVkaXJlY3QucGhwP3VybD1leUp6WTJobGJXVmpiMlJsSWpvaWJqWnVkSHBxYUhnaUxDSmtaWE4wZFhKc0lqb2lhSFIwY0RwY0wxd3ZkM2QzTG5acGNDNWpiMjBpTENKMVkyOWtaU0k2SWpVeWJuSjRkM1YySW4wPQ==\" target=\"_blank\"><img src=\"http://ms.vpimg1.com/upload/actpics/cps/0/2015/05/12/74/nnenxoalzz7akl6.jpg\"></a><img src=\"http://www.xuanruixinxi.com/xd/load.php?adid=${AUCTION_AD_ID}&p=${AUCTION_PRICE}\"  height=\"1px\" width=\"1px\"/>",
  "bidid": "bid1",
- "bidceiling" :  [1,2.5],
+ "bidceiling" :  [1,3.2],
+ "range":0.7,
  "dtime" : [9,24],
- "cost" : 1000,
+ "cost" : 1000000,
  "site": {
- 	"sectioncat": ["A08B03C00v2012.1","A10B04C00v2012.1"]
+ 	"sectioncat": ["A10B00C00v2012.1","A16B00C00v2012.1","A17B00C00v2012.1","A09B10C00v2012.1","A09B18C00v2012.1","A10B06C00v2012.1","A10B03C00v2012.1","A08B03C00v2012.1","A10B04C00v2012.1"]
  },
  "device": {
  	"ua": "Windows",

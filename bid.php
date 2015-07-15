@@ -164,8 +164,8 @@ function generate_response($resp, $req, $bid){
     $resp_bid->adomain = $bid->adomain;
     $resp_bid->adm = $bid->adm;
 	//生成最终的竞价
-    $resp_bid->price = $GLOBALS['bid_price']+0.5;
-    if($resp_bid->price>$bid->bidceiling[1]||$resp_bid->price<$bid->bidceiling[0]){
+    $resp_bid->price = $GLOBALS['bid_price']+$bid->bidceiling;
+    if($resp_bid->price>$bid->range[1]||$resp_bid->price<$bid->range[0]){
         header('HTTP/1.1 204 No Content');
         return null;
     }

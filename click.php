@@ -10,7 +10,7 @@ if(!is_array($count_obj)) {
 }
 
 foreach ($count_obj as $value){
-    if($value->adid==$adid){
+    if($value->adid==$adid&&($value->date==date('y-m-d',time()))){
         $value->nclick++;
     }
 }

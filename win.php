@@ -13,6 +13,7 @@ function find_record($count){
 	foreach ($count as $value){
 		if(($value->adid==$_GET['adid'])&&($value->date==date('y-m-d',time()))){
 			$value->cost += $_GET['p'];
+			$value->num += 1;
 			return $value;
 		}
 	}
@@ -20,7 +21,7 @@ function find_record($count){
 }
 $record = find_record($count_obj);
 if(empty($record)){
-	$add_str = '{"adid":"'.$_GET['adid'].'","date":"'.date('y-m-d',time()).'","cost":'.$_GET['p'].'}';
+	$add_str = '{"adid":"'.$_GET['adid'].'","date":"'.date('y-m-d',time()).'","num":'.'1'.',"cost":'.$_GET['p'].'}';
 	$add_obj = json_decode($add_str);
 	array_push($count_obj,$add_obj);
 }
