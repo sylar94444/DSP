@@ -24,7 +24,9 @@ if(!is_array($win_obj)) {
 }
 
 foreach ($win_obj as $value){
-    echo "id:  ".$value->adid."    投放日期:  ".$value->date."    当天花费（元）:  ".$value->cost/1000;
-	echo "<br>";
+    if(!empty($value)){
+        echo "id:  ".$value->adid."    投放日期:  ".$value->date."    当天花费（元）:  ".$value->cost/1000;
+        echo "<br>";
+    }
 }
 ?>
