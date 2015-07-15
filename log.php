@@ -27,9 +27,11 @@ if(!is_array($count_obj)) {
 echo "广告投放统计：";
 echo "<br>";
 foreach ($count_obj as $value){
-    $ctr = sprintf("%.4f", 100.0*$value->nclick/$value->nload);
-    echo "id:  ".$value->adid."    投放日期:  ".$value->date."    点击量（次数）:  ".$value->nclick."    曝光量（次数）:  ".$value->nload."    点击率:  ".$ctr."%"."    累计花费（元）:  ".$value->cost/1000;
-	echo "<br>";
+    if(!empty($value)){
+        $ctr = sprintf("%.4f", 100.0*$value->nclick/$value->nload);
+        echo "id:  ".$value->adid."    投放日期:  ".$value->date."    点击量（次数）:  ".$value->nclick."    曝光量（次数）:  ".$value->nload."    点击率:  ".$ctr."%"."    累计花费（元）:  ".$value->cost/1000;
+	   echo "<br>";
+    }
 }
 
 ?>
