@@ -1,0 +1,137 @@
+<VAST version="3.0">
+    <Ad type="front" id="94313">
+        <InLine>
+            <AdSystem>PlanB</AdSystem>
+            <AdTitle>2588</AdTitle>
+            <Impression>
+                <![CDATA[http://y.da.hunantv.com/app/impression?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=0&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+            </Impression>
+            <Impression>
+                <![CDATA[http://vhunantv.admaster.com.cn/i/a65909,b999553,c1370,i0,m202,h]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents>
+                            <Tracking event="mute">
+                                <![CDATA[http://y.da.hunantv.com/app/impression?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=20000&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[http://y.da.hunantv.com/app/impression?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=20001&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[http://y.da.hunantv.com/app/impression?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=900&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[http://y.da.hunantv.com/app/impression?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=1800&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[http://y.da.hunantv.com/app/impression?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=2700&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[http://y.da.hunantv.com/app/impression?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=3600&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough external="0">
+                                <![CDATA[http://c.admaster.com.cn/c/a65909,b999553,c1370,i0,m101,h]]>
+                            </ClickThrough>
+                            <ClickTracking external="0">
+                                <![CDATA[http://y.da.hunantv.com/app/click?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=0&o=302&sp=94313,3019,2588&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&tn=1&hid=290964&video_len=1631&os=3&channel=2&adtype=1]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/flv" width="848" height="480">
+                                <![CDATA[http://flv.res.hunantv.com/mediafiles/wiad_creative/302/1458198650.flv]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Error>
+                <![CDATA[http://y.da.hunantv.com/err?d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&v=2975926&ct=2588&cd=3019&s=94313&b=4388&t=10000&o=302&id=0AE715A5-84E2-5B10-1855-2A170D91523C&ip=10.100.1.253&errc=[ERRORCODE]&errm=[ERRORMSG]&erru=[ERRORURL]]]>
+            </Error>
+        </InLine>
+    </Ad>
+    <Ad id="101331">
+        <InLine>
+            <AdSystem>PMP</AdSystem>
+            <AdTitle>KFC</AdTitle>
+            <Impression>
+                <![CDATA[http://123.59.21.41/log/showLog?cost=ba178b3e3591eab7c03448d169463c84&dspid=30&bid=cb08934d040b43bc8d84229e0b0cbcf8&uid=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&location=1000000000&s=101331&v=2975926&itemid=39,29,36&event=0&tn=2&dev=1&id=0AE715A5-84E2-5B10-1855-2A170D91523C&d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&b=4388&ip=10.100.1.253&video_len=1631&hid=290964&os=3&channel=2&adtype=1&t=0]]>
+            </Impression>
+            <Impression>
+                <![CDATA[http://dsp.yundouzi.com/show.php?c=ba178b3e3591eab7c03448d169463c84]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents></TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough external="0">
+                                <![CDATA[http://www.kfc.com.cn/]]>
+                            </ClickThrough>
+                            <ClickTracking external="0">
+                                <![CDATA[http://123.59.21.41/log/clickLog?cost=ba178b3e3591eab7c03448d169463c84&dspid=30&bid=cb08934d040b43bc8d84229e0b0cbcf8&uid=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&location=1000000000&s=101331&v=2975926&itemid=39,29,36&event=0&tn=2&dev=1&id=0AE715A5-84E2-5B10-1855-2A170D91523C&d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&b=4388&ip=10.100.1.253&video_len=1631&hid=290964&os=3&channel=2&adtype=1&t=0]]>
+                            </ClickTracking>
+                            <ClickTracking external="0">
+                                <![CDATA[http://dsp.yundouzi.com/click.php]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/x-flv" width="848" height="480">
+                                <![CDATA[http://mp4.res.hunantv.com/pmp/30/1459838909830.flv]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+    <Ad id="94311">
+        <InLine>
+            <AdSystem>PMP</AdSystem>
+            <AdTitle>KFC</AdTitle>
+            <Impression>
+                <![CDATA[http://123.59.21.41/log/showLog?cost=ba178b3e3591eab7c03448d169463c84&dspid=30&bid=418840bdea7d4078855a0a930576527b&uid=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&location=1000000000&s=94311&v=2975926&itemid=39,29,36&event=0&tn=4&dev=1&id=0AE715A5-84E2-5B10-1855-2A170D91523C&d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&b=4388&ip=10.100.1.253&video_len=1631&hid=290964&os=3&channel=2&adtype=1&t=0]]>
+            </Impression>
+            <Impression>
+                <![CDATA[http://dsp.yundouzi.com/show.php?c=ba178b3e3591eab7c03448d169463c84]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents></TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough external="0">
+                                <![CDATA[http://www.kfc.com.cn/]]>
+                            </ClickThrough>
+                            <ClickTracking external="0">
+                                <![CDATA[http://123.59.21.41/log/clickLog?cost=ba178b3e3591eab7c03448d169463c84&dspid=30&bid=418840bdea7d4078855a0a930576527b&uid=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&location=1000000000&s=94311&v=2975926&itemid=39,29,36&event=0&tn=4&dev=1&id=0AE715A5-84E2-5B10-1855-2A170D91523C&d=AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE&b=4388&ip=10.100.1.253&video_len=1631&hid=290964&os=3&channel=2&adtype=1&t=0]]>
+                            </ClickTracking>
+                            <ClickTracking external="0">
+                                <![CDATA[http://dsp.yundouzi.com/click.php]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/x-flv" width="848" height="480">
+                                <![CDATA[http://mp4.res.hunantv.com/pmp/30/1459838909830.flv]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+    <Extensions>
+        <CreativeNetTimeout>5</CreativeNetTimeout>
+        <MidRollPreTime>120</MidRollPreTime>
+        <Ads>
+            <Ad id="94317" type="pause" t="0"></Ad>
+        </Ads>
+        <MidCountdown>5</MidCountdown>
+    </Extensions>
+</VAST>

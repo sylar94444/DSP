@@ -1,19 +1,19 @@
 [
     {
 		"imp":	{
-					"width": 848,
-					"height": 480,
+					"width": 480,
+					"height": 270,
 					"min_cpm_price": 100,
 					"range" : [100,320],
 					"bidceiling":70,
-					"location":	[1,2,3],
-					"ctype": 2,
+					"location":	[4],
+					"ctype": 1,
 					"playtime":	15,
 					"order": [1,2,3]
 		},	 
         "device": {
-            "os": ["windows","mac"],
-            "ua": ["windows","mac"],
+            "os": ["ios"],
+            "ua": ["ios"],
             "connectiontype": [0,1]
         },
         "video": {
@@ -28,7 +28,7 @@
 								{
 									"price": 0,
 									"ad_url": "http://mp4.res.hunantv.com/pmp/30/1459838909830.flv",
-									"click_through_url": "http://www.kfc.com.cn/",
+									"click_through_url": "https://lnk0.com/cocYpc",
 									"iurl":	[
 												{
 													"url": "http://dsp.yundouzi.com/show.php?c=%%SETTLE_PRICE%%",
@@ -38,12 +38,12 @@
 									"curl":	[
 												"http://dsp.yundouzi.com/click.php"
 									],
-									"adid":	"KFC_1",
-									"title":	"KFC",
+									"adid":	"MT_1",
+									"title":	"MT",
 									"duration":	15,
-									"ctype":	2,
-									"width":	848,
-									"height":	480
+									"ctype":	1,
+									"width":	480,
+									"height":	270
 								}
 					]
 		}

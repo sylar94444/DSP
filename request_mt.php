@@ -1,8 +1,8 @@
 <?php                                                                                 
-$data_string = '{"version":3,"bid":"b8c735eedfc44ccc978ae8aea4f65fc7","request_type":0,"imp":[{"space_id":"94311","width":848,"height":480,"min_cpm_price":149,"player_id":4388,"location":1,"ctype":[2],"playtime":15,"order":4}],"device":{"duid":"AEF8E5CB-5DDC-A37B-33E1-D8DCA4CF4CCE","os":"Mac OS 10.11.3","sw":800,"sh":1280,"ip":"10.100.1.253","ua":"mozilla/5.0 (macintosh; intel mac os x 10_11_3) applewebkit/537.36 (khtml, like gecko) chrome/49.0.2623.87 safari/537.36","connectiontype":0,"type":1,"version":"pcweb_MAC 20,0,0,306","screen_orientation":0},"video":{"video_id":2927190,"video_name":"...... ...36...","collection_id":157290,"collection_name":"......","item_ids":"38,36,42,39","item_names":"null,null,null,null","area_id":1,"year":2015,"duration":2704,"type":1}}';
+$data_string = '{"version":3,"bid":"9e55e7a5714045279e627c9b0bd69cae","request_type":0,"imp":[{"space_id":"101331","width":480,"height":270,"min_cpm_price":149,"player_id":4388,"location":4,"ctype":[1],"playtime":25,"order":3}],"device":{"duid":"EAFF463B-906F-F1DF-2A59-E4F98B0788E7","os":"ios","sw":1080,"sh":1920,"ip":"39.128.79.14","ua":"ios","connectiontype":0,"type":1,"version":"pcweb_WIN 21,0,0,197","screen_orientation":0},"video":{"video_id":717333,"video_name":"............... ...43...","collection_id":54686,"collection_name":"...............","item_ids":"30,36,37,40","item_names":"null,null,null,null","area_id":1,"year":2014,"duration":2291,"type":1}}';
 
 
-$ch = curl_init('http://dsp.yundouzi.com/bid.php');                                                                      
+$ch = curl_init('http://dsp.yundouzi.com/bid_mt.php');                                                                      
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);                                                                  
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);                                                                      

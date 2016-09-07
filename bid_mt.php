@@ -32,7 +32,7 @@ switch ($req_obj->request_type){
 /*
  * 读取ad.json投放广告策略
  * */
-$ads_str = file_get_contents("./ad.json");
+$ads_str = file_get_contents("./ad_mt.json");
 $ads_obj = json_decode($ads_str);
 if(!is_array($ads_obj)) {
     header('HTTP/1.1 204 No Content');
@@ -149,9 +149,13 @@ foreach ($ads_obj as $ad_obj){
         break;
     }
 }
+if(empty($bid_result)){
+    header('HTTP/1.1 204 No Content');
+    return null;    
+}
 
 /*
- * 生成有广告的消息
+ * 生成response素材广告素材
  * */
 function generate_response($req, $bid){
 	
@@ -163,23 +167,7 @@ function generate_response($req, $bid){
 	$bid->resp->ads[0]->width = $bid->imp->width;
 	$bid->resp->ads[0]->height = $bid->imp->height;
 }
-
-/*
- * 生成无广告的消息
- * */
-function generate_response_null($req, $bid){
-	
-	$bid->resp->version = $req->version;
-	$bid->resp->bid = $req->bid;
-	$bid->resp->err_code = 204;
-	$bid->resp->ads = null;
-}
-
-if(empty($bid_result)){
-    generate_response_null($req_obj, $bid_result);  
-}else{
-	generate_response($req_obj, $bid_result);
-}
+generate_response($req_obj, $bid_result);
 
 /*
  * 构造bid response消息http头

@@ -1,22 +1,16 @@
 <?php
 
-$adid = $_GET['adid'];
-$file = "./count.json";
-$count_str = file_get_contents($file);
-$count_obj = json_decode($count_str);
-if(!is_array($count_obj)) {
-    header('Location: '.base64_decode($_GET['url']));
-    return null;
-}
-
-foreach ($count_obj as $value){
-    if($value->adid==$adid&&($value->date==date('y-m-d',time()))){
-        $value->nclick++;
-    }
-}
-$count_str = json_encode($count_obj);
-file_put_contents($file, $count_str,LOCK_EX);
-
-header('Location: '.base64_decode($_GET['url']));
+	$ip = $_SERVER["REMOTE_ADDR"];
+    $url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+	$referer = $_SERVER['HTTP_REFERER'];
+	$ua = $_SERVER['HTTP_USER_AGENT'];
+	//var_dump($url, $referer , $ua);
+    $dbconnect = mysql_connect('localhost','dsp_admin','dsp_admin') or die('Could not connect: ' . mysql_error());
+    mysql_select_db("dsp") or die("Unable to select database!");
+    
+	$sql = "INSERT INTO `dsp`.`mgtv_click` (`click_time`, `ip`, `url`, `referer`, `ua`) VALUES (CURRENT_TIMESTAMP, '".$ip."','".$url."','".$referer."', '".$ua."')"; 
+    mysql_query($sql) or die("Error in insert: ".mysql_error());
+    
+    mysql_close($dbconnect);
 
 ?>
